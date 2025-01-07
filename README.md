@@ -1,6 +1,7 @@
 # Dynamic Table with Real-Time Chart
 
-A web application featuring a dynamic CRUD-enabled table and a real-time chart implemented using React, Redux, and Chart.js. The app is styled with Tailwind CSS and provides a fully responsive user experience. It includes authentication functionality and is hosted on [Vercel](#deployment).
+A web application featuring a dynamic CRUD-enabled table and a real-time chart implemented using React, Redux, and Chart.js. The app is styled with Tailwind CSS and provides a fully responsive user experience. It includes authentication functionality and is hosted on [Vercel](https://react-redux-chart.vercel.app/).
+
 
 ---
 
@@ -14,8 +15,8 @@ A web application featuring a dynamic CRUD-enabled table and a real-time chart i
 
 ### 2. Authentication
 - Login functionality with mock authentication.
-- **Username:** `admin`  
-- **Password:** `password`
+  - **Username:** **`admin`**  
+  - **Password:** **`password`**  
 - Displays error messages for invalid credentials.
 
 ### 3. Real-Time Line Chart
@@ -47,8 +48,8 @@ A web application featuring a dynamic CRUD-enabled table and a real-time chart i
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository_url>
-cd <repository_name>
+git clone https://github.com/Rijish13Ahuja/React-redux-chart
+cd React-redux-chart
 ```
 
 ### 2. Install Dependencies
@@ -73,9 +74,9 @@ The app will run on `http://localhost:3000`.
 
 ## Deployment
 
-The app is hosted on **Vercel/Netlify**. You can access it at:
+The app is hosted on **Vercel**. You can access it at:
 
-**[Hosted App URL](#)**
+**[https://react-redux-chart.vercel.app/](#)**
 
 ---
 
@@ -182,9 +183,5 @@ src/
 
 ---
 
-## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
 
