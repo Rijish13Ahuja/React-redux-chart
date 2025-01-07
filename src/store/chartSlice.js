@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  data: [], // Chart data points
+  data: [], 
 };
 
 const chartSlice = createSlice({
@@ -11,7 +11,7 @@ const chartSlice = createSlice({
     addDataPoint: (state, action) => {
       state.data.push(action.payload);
       if (state.data.length > 10) {
-        state.data.shift(); // Keep only the last 10 points
+        state.data.shift(); 
       }
     },
   },
