@@ -164,7 +164,7 @@ src/
 - Authentication with mock login.
 - Dark theme UI with responsive design.
 - Redux integration for state management.
-- Hosting on Vercel/Netlify.
+- Hosting on Vercel.
 
 ### Future Enhancements
 - Add persistent storage for table data.
